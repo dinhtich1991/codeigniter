@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Danh sách bài viết</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		
+	</head>
+	<body>
+		<header class="it-header">
+			<p class=main-title> Hệ thống quản trị website</p>	
+		</header>
+		
+		<nav class="navigation">
+			<ul class="main">
+				<li class="main">
+					<a class="main" href="#">Hệ thống</a>
+					<ul class="item">
+						<li class="item">
+							<a class="item" href="#">Cấu hình</a>
+							<ul class="sub">
+								<li class="sub"><a class="sub" href="#">Trang quản trị</a></li>
+								<li class="sub"><a class="sub" href="#">Trang chủ</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="main">
+					<a class="main" href="#">Module</a>
+					<ul class="item">
+						<li class="item"><a class="item" href="#">Quảng cáo</a></li>
+						<li class="item"><a class="item" href="#">Hỗ trợ trực tuyến</a></li>
+						<li class="item"><a class="item" href="#">Từ khoá</a></li>
+						<li class="item"><a class="item" href="#">Phản hồi</a></li>
+					</ul>
+				</li>
+				<li class="main">
+					<a class="main" href="#">Bài viết</a>
+					<ul class="item">
+						<li class="item"><a class="item" href="#">Danh mục</a></li>
+						<li class="item"><a class="item" href="#">Bài viết</a></li>
+					</ul>
+				</li>
+				<li class="main"><a class="main" href="#">Phản hồi</a></li>
+			</ul>
+			<ul class="user-account">
+				<li>Chào <strong>Tạ Đình Tích</strong></li>
+				<li><a href="">Thông tin</a></li>
+				<li><a href="">Đăng xuất</a></li>
+			</ul>			
+		</nav>
+					
+		<section class="it-tabs">
+			<h1>Danh sách bài viết</h1>
+			<ul>
+				<li class="active"><a href="">Danh mục bài viết</a></li>
+				<li><a href="">Danh sách bài viết</a></li>
+			</ul>
+		</section> <!--end tab-->
+		<section class="it-view">
+			<section class="advanced">
+				<section class="search">
+					<form method="get" action="">
+						<select name="category">
+							<option value=""> -Danh mục sản phẩm- </option>
+						</select>
+						<input type="text" class="text" name="keyword" class="" />
+						<input type="submit" class="submit" value="Tìm kiếm" />
+					</form>
+				</section>
+				<section class="tool">
+					<form method="get" action="">
+						<input type="button" value="Thêm mới" />
+						<input type="button" value="Xoá Nhiều" />
+						<input type="button" value="Hiển Thị" />
+						<input type="button" value="Sắp Xếp" />
+					</form>
+				</section>
+			</section><!--end advanced-->
+			<section class="table">
+				<table cellpadding="0" cellspacing="0" class="main">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th><input type="checkbox" id="view-checkall" /></th>
+							<th><a href="">Tên bài viết <img src="images/icon-plus.png" /></a></th>
+							<th><a href="">Ngày tạo</a></th>
+							<th><a href="">Ngày sửa</a></th>
+							<th><a href="">Người tạo</a></th>
+							<th><a href="">Người sửa</a></th>
+							<th><a href="">Lượt xem</a></th>
+							<th><a href="">Vị trí</a></th>
+							<th><a href="">Hiển thị</a></th>
+							<th><a href="">Thao tác</a></th>
+							<th class="last"><a href="">Mã</a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>#</td>
+							<td><input type="checkbox" id="view-checkall" /></td>
+							<td class="left"><a href="">TQ đặt giàn khoan trái phép</a></td>
+							<td><a href="">11/11/2011 19:14</a></td>
+							<td><a href="">11/11/2011 19:14</a></td>
+							<td><a href="">admin</a></td>
+							<td><a href=""> - </a></td>
+							<td><a href="">12</a></td>
+							<td><input type="input" name="" value="0" class="order" /></td>
+							<td><a href=""><img src="images/success.png" /></a></td>
+							<td><a href=""><img src="images/delete.png" /></a><a href=""><img src="images/setting.png" /></a></td>
+							<td class="last"><a href="">1</a></td>
+						</tr>
+						<tr>
+							<td>#</td>
+							<td><input type="checkbox" id="view-checkall" /></td>
+							<td class="left"><a href="">TQ đặt giàn khoan trái phép TQ đặt giàn khoan trái phép TQ đặt giàn khoan trái phép</a></td>
+							<td><a href="">11/11/2011 19:14</a></td>
+							<td><a href="">11/11/2011 19:14</a></td>
+							<td><a href="">admin</a></td>
+							<td><a href=""> - </a></td>
+							<td><a href="">12</a></td>
+							<td><input type="input" name="" value="0" class="order" /></td>
+							<td><a href=""><img src="images/success.png" /></a></td>
+							<td><a href=""><img src="images/delete.png" /></a><a href=""><img src="images/setting.png" /></a></td>
+							<td><a href="">2</a></td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</section>
+			<section class="pagination">
+				<ul>
+					<li><a href="">Trang đầu </a> </li>
+					<li><a href="">Lùi lại</a> </li>
+					<li><a href="">2 </a> </li>
+					<li><a href="">3 </a> </li>
+					<li><a href="">4 </a> </li>
+					<li><a href="">5 </a> </li>
+					<li><a href="">Tiếp theo </a> </li>
+					<li><a href="">Trang cuối </a> </li>
+				</ul>
+			</section>
+			
+		</section> <!--end view-->
+		<footer>
+			<p> Copyright &copy; 2015 - Powered by <a href="">ĐìnhTích </a> </p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,5 @@
+<?php
+$route['o-to'] = 'frontend/article/item9';
+$route['o-to-ve'] = 'frontend/article/item10';
+$route['chuyn-ngi-thng'] = 'frontend/article/category10';
+$route['o-to-ve'] = 'frontend/article/item/10';

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Thêm bài viết</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/1.7.2.jquery.min.js"></script>
+	</head>
+	<body>
+		<header class="it-header">
+			<p class=main-title> Hệ thống quản trị website</p>	
+		</header>
+		
+		<nav class="navigation">
+			<ul class="main">
+				<li class="main">
+					<a class="main" href="#">Hệ thống</a>
+					<ul class="item">
+						<li class="item">
+							<a class="item" href="#">Cấu hình</a>
+							<ul class="sub">
+								<li class="sub"><a class="sub" href="#">Trang quản trị</a></li>
+								<li class="sub"><a class="sub" href="#">Trang chủ</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="main">
+					<a class="main" href="#">Module</a>
+					<ul class="item">
+						<li class="item"><a class="item" href="#">Quảng cáo</a></li>
+						<li class="item"><a class="item" href="#">Hỗ trợ trực tuyến</a></li>
+						<li class="item"><a class="item" href="#">Từ khoá</a></li>
+						<li class="item"><a class="item" href="#">Phản hồi</a></li>
+					</ul>
+				</li>
+				<li class="main">
+					<a class="main" href="#">Bài viết</a>
+					<ul class="item">
+						<li class="item"><a class="item" href="#">Danh mục</a></li>
+						<li class="item"><a class="item" href="#">Bài viết</a></li>
+					</ul>
+				</li>
+				<li class="main"><a class="main" href="#">Phản hồi</a></li>
+			</ul>
+			<ul class="user-account">
+				<li>Chào <strong>Tạ Đình Tích</strong></li>
+				<li><a href="">Thông tin</a></li>
+				<li><a href="">Đăng xuất</a></li>
+			</ul>			
+		</nav>
+					
+		<section class="it-tabs">
+			<h1>Danh sách bài viết</h1>
+			<ul>
+				<li class="active"><a href="">Danh mục bài viết</a></li>
+				<li><a href="">Danh sách bài viết</a></li>
+			</ul>
+		</section> <!--end tab-->
+		
+		<section class="it-form">
+			<form>
+				<section class="main-panel">
+					<header>Thông tin chung</header>
+					<section class="block">
+						<label class="item">
+							<p class="label">Tiêu đề:</p>
+							<input type="text" value="" class="txtText">
+						</label>
+						<label class="item">
+							<p class="label">Danh mục:</p>
+							<select class="cbSelect">
+								<option value="">- Chọn danh mục -</option>
+							</select>
+						</label>
+						<label class="item">
+							<p class="label">Nội dung:</p>
+							<textarea class="txtTextarea"></textarea>
+						</label>
+						<section class="checkbox-radio">
+							<p class="label">Lựa chọn:</p>
+							<section class="group">
+								<label>
+									<input type="checkbox" value="" class="" /><span>Lựa chọn 1</span>
+								</label>
+								<label>
+									<input type="checkbox" value="" class="" /><span>Lựa chọn 2</span>
+								</label>
+								<label>
+									<input type="checkbox" value="" class="" /><span>Lựa chọn 3</span>
+								</label>
+								<label>
+									<input type="checkbox" value="" class="" /><span>Lựa chọn 4</span>
+								</label>
+							</section>
+						</section>
+						<section class="checkbox-radio">
+							<p class="label">Lựa chọn:</p>
+							<section class="group">
+								<label>
+									<input type="radio" name="radio" value="" class="" /><span>Lựa chọn 1</span>
+								</label>
+								<label>
+									<input type="radio" name="radio" value="" class="" /><span>Lựa chọn 2</span>
+								</label>
+								<label>
+									<input type="radio" name="radio" value="" class="" /><span>Lựa chọn 3</span>
+								</label>
+								<label>
+									<input type="radio" name="radio" value="" class="" /><span>Lựa chọn 4</span>
+								</label>
+							</section>
+							
+						</section>
+						<section class="action">
+								<p class="label">Thao tác:</p>
+								<section class="group">
+									<input type="submit" name="add" value="Thêm mới" />
+									<input type="reset" value="Làm lại" />
+								</section>
+						</section>
+					</section><!--end block-->
+					
+				</section> <!--end main-->
+				<aside class="side-panel">
+					
+					<section class="block">
+						<header>Nâng cao</header>
+						<section class="container">
+							<section class="checkbox-radio">
+								<p class="label">Lựa chọn:</p>
+								<section class="group">
+									<label>
+										<input type="radio" name="radio" value="" class="" /><span>Không</span>
+									</label>
+									<label>
+										<input type="radio" name="radio" value="" class="" /><span>Có</span>
+									</label>
+								</section>
+							</section>	
+						</section>	<!--end container-->							
+					</section><!--end block-->
+					<section class="block">
+						<header>Nâng cao</header>
+						<section class="container">
+							<label class="item">
+								<p class="label">Tiêu đề:</p>
+								<input type="text" value="" class="txtText">
+							</label>
+							<label class="item">
+								<p class="label">Danh mục:</p>
+								<select class="cbSelect">
+									<option value="">- Chọn danh mục -</option>
+								</select>
+							</label>
+							<label class="item">
+								<p class="label">Nội dung:</p>
+								<textarea class="txtTextarea"></textarea>
+							</label>
+						</section><!--end container-->
+					</section><!--end block-->
+				</aside><!--end side-->
+			</form>
+		</section> <!--end form-->
+		<footer>
+			<p> Copyright &copy; 2015 - Powered by <a href="">ĐìnhTích </a> </p>
+		</footer>
+		<script type="text/javascript" src="js/function.js"></script>
+	</body>
+</html>

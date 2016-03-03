@@ -1,0 +1,92 @@
+
+body{
+    margin: 0;
+}
+
+header{
+    min-height: 100px;
+}
+
+
+section.dt_wrapper {
+    width: 400px;
+    margin: 0 auto;
+}
+section.dt_wrapper .heading{
+	height: 38px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px solid #DBDBDB;
+    background: url('../images/box.png') repeat-x;
+    -webkit-border-radius: 7px 7px 0px 0px;
+    -moz-border-radius: 7px 7px 0px 0px;
+    -khtml-border-radius: 7px 7px 0px 0px;
+    border-radius: 7px 7px 0px 0px;
+}
+section.dt_wrapper .heading h3{
+	margin: 0px;
+    padding: 11px 0px 0px 0px;
+    color: #003A88;
+    font-size: 16px;
+    float: left;
+}
+section.dt_wrapper .content{
+	min-height: 150px;
+    overflow: hidden;
+	padding: 10px;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    overflow: auto;
+}
+section.dt_wrapper .content label.item{
+	display: block;
+	padding: 10px 0px 5px 5px;
+}
+section.dt_wrapper .content label.check{
+	
+}
+section.dt_wrapper .content label.check input.txtCheck{
+	float: left;
+    margin-left: 168px;
+}
+section.dt_wrapper .content label.check p{
+	margin: 0px;
+	padding-left: 190px;
+}
+
+section.dt_wrapper .content label.item p{
+	float: left;
+    padding: 0px;
+    margin: 0px;
+    min-width: 168px;
+}
+
+section.dt_wrapper .content section.login{
+	padding: 10px;
+    text-align: center;
+}
+section.dt_wrapper .content section.login input{
+	padding: 6px;
+    margin-left: 10px;
+}
+section.dt_wrapper .content nav.list{
+	display: block;
+	float: right;
+}
+section.dt_wrapper .content nav.list ul{
+	margin: 0px;
+	padding: 0px;
+	list-style:none;
+	
+}
+section.dt_wrapper .content nav.list ul li{
+	float: left;
+	padding: 3px;
+}
+
+footer .dt_wrapper p{
+    text-align: right;
+}
+
+
